@@ -1,0 +1,40 @@
+﻿# Entornos virtuales
+.venv/
+venv/
+dashboard/.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.log
+
+# Registros y resultados generados
+logs/*
+reportes/*
+evidencias/*
+
+# Configuracion privada
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Respaldos y versiones anteriores
+*.bak
+*.old
+*.backup
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+__pycache__/

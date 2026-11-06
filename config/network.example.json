@@ -1,0 +1,41 @@
+﻿{
+    "InternetTest": {
+        "Host": "www.microsoft.com",
+        "Port": 443
+    },
+    "DnsTest": {
+        "Host": "www.microsoft.com"
+    },
+    "Ports": [
+        {
+            "Name": "HTTP",
+            "Host": "localhost",
+            "Port": 80
+        },
+        {
+            "Name": "HTTPS",
+            "Host": "localhost",
+            "Port": 443
+        },
+        {
+            "Name": "SQL Server",
+            "Host": "localhost",
+            "Port": 1433
+        },
+        {
+            "Name": "Oracle",
+            "Host": "localhost",
+            "Port": 1521
+        },
+        {
+            "Name": "RDP",
+            "Host": "localhost",
+            "Port": 3389
+        },
+        {
+            "Name": "SMB",
+            "Host": "localhost",
+            "Port": 445
+        }
+    ]
+}
